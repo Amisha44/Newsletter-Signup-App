@@ -69,7 +69,9 @@ app.post("/failure" , function(req , res){
   res.redirect("/");
 });
 
-
+app.post("/success" , function(req,res){
+  res.redirect("/");
+});
 
 
 
@@ -80,13 +82,3 @@ app.listen(process.env.PORT || 3000  , function() {
 
 
 
-
-
-
-
-
-// API KEY
-// be966e3edb193a7b201a31de89ea8275-us5
-
-// List id
-// c0a6517bf7
